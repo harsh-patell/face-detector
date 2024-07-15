@@ -8,10 +8,10 @@ easily be expanded to identify other items.
 
 ## Directory Structure
 `src/data_augmentation.py` - captures, labels and augments data into training and test sets  
-`src/face_tracker.py` - inherits from the Keras Model class to group the layers and constructs an object with training features  
+`src/face_tracker.py` -  model inherited from Keras Model class  
 `src/model.py` -  creates and trains the model with classification and regression layers from the augmented data  
 `src/detection.py` -  detection with OpenCV  
-`main.ipynb` - jupyter notebook with the entire code
+`main.ipynb` - jupyter notebook file with the entire code
 
 ## How To Run
 1. Setup project directory as outlined in `src/data_augmentation.py`
